@@ -1,8 +1,8 @@
 package Vehiculo;
 
 public abstract class Vehiculo {
-    private Double velocidadMaxima;
-    private String color;
+    protected Double velocidadMaxima;
+    protected String color;
 
     public Vehiculo(){}
 
@@ -11,9 +11,13 @@ public abstract class Vehiculo {
         this.color = color;
     }
 
-    public Double getVelocidadMaxima() {}
+    public Double getVelocidadMaxima() {
+        return velocidadMaxima;
+    }
 
-    public String getColor() {}
+    public String getColor() {
+        return color;
+    }
 
-    public abstract Double calcularConsumo();
+    public abstract double calcularConsumo(double km);
 }
