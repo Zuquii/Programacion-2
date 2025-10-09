@@ -1,0 +1,7 @@
+if (e instanceOf Imprimible){
+	((imprimiple) e).imprimirDetalles);
+}
+
+if (e instanceOf Imprimible i){
+	i.imprimirDetalles(){
+}
