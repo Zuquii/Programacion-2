@@ -17,6 +17,10 @@ public class Autor {
         this.libros = libros;
     }
 
+    public void agregarAutor(Libro libro){
+        this.libros.add(libro);
+    }
+
     public String getNombre() {
         return nombre;
     }

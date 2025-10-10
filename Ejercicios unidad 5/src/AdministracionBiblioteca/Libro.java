@@ -15,10 +15,11 @@ public class Libro {
         this.copias = new ArrayList<Copia>();
     }
 
-    public Libro(String titulo, String editorial, int anio,List<Autor>autores,List<Copia>copias) {
+    public Libro(String titulo, String editorial, int anio,long ISBN,List<Autor>autores,List<Copia>copias) {
         this.titulo = titulo;
         this.editorial = editorial;
         this.anio = anio;
+        this.ISBN = ISBN;
         this.autores = autores;
         this.copias = copias;
     }
@@ -27,7 +28,6 @@ public class Libro {
     public void agregarAutor(Autor autor){
         this.autores.add(autor);
     }
-
     public void agregarCopia(Copia copia){
         this.copias.add(copia);
     }

@@ -19,6 +19,10 @@ public class Copia {
         this.prestamos = prestamos;
     }
 
+    public void agregarPrestamo(Prestamo p){
+        this.prestamos.add(p);
+    }
+
     public int getId() {
         return id;
     }

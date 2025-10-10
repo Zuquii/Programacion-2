@@ -17,6 +17,10 @@ public class Lector {
         this.prestamos = prestamos;
     }
 
+    public void agregarPrestamo(Prestamo p){
+        this.prestamos.add(p);
+    }
+
     public int getCodigo() {
         return codigo;
     }

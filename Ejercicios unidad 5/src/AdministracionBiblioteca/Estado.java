@@ -1,7 +1,7 @@
 package AdministracionBiblioteca;
 
 public enum Estado {
-    prestado,
+    Prestado,
     En_Biblioteca,
     En_Reparacion,
     Retraso

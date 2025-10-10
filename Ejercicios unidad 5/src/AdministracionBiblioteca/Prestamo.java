@@ -23,7 +23,7 @@ public class Prestamo {
     public String getFechaDevolucion() {
         return fechaDevolucion;
     }
-    public boolean isMulta() {
+    public boolean Multa() {
         return multa;
     }
     public Copia getCopia() {
