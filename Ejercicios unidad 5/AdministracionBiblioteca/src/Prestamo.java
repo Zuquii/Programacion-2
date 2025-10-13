@@ -1,4 +1,5 @@
-package AdministracionBiblioteca;
+import AdministracionBiblioteca.Copia;
+import AdministracionBiblioteca.Lector;
 
 public class Prestamo {
     private String fechaEntrega;
