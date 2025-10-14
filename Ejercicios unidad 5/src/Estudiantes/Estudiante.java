@@ -2,7 +2,7 @@ package Estudiantes;
 import java.util.Collections;
 import java.util.ArrayList;
 
-public class Estudiante implements Comparable<Estudiante>{
+public class Estudiante{
     private String nombre;
     private int edad;
 
@@ -30,8 +30,4 @@ public class Estudiante implements Comparable<Estudiante>{
         return "Nombre: "+nombre + " Edad: "+edad;
     }
 
-    @Override
-    public int compareTo(Estudiante otro){
-        return this.nombre.compareToIgnoreCase(otro.nombre);
-    }
 }

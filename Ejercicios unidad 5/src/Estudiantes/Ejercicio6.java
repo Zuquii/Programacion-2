@@ -1,7 +1,7 @@
 package Estudiantes;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Ejercicio6 {
     }
 
     public static void ordenarPorNombre(List<Estudiante> estudiantes){
-        Collections.sort(estudiantes);
+        estudiantes.sort(Comparator.comparing(Estudiante::getNombre));
     }
 
     public static void mostrarEstudiantes(List<Estudiante> estudiantes){
